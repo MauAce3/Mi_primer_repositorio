@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="shortcut icon" href="./imagenes/Logo-Mariu-no-animado.png" type="image.png">
+    <link rel="stylesheet" href="./style.css">
+    <title>Mi Portfolio</title>
+</head>
+
+<body>
+    <header> <!-- Header que contiene links de navegación    -->
+        <video autoplay loop muted>
+            <source src="./imagenes/Canva Design.mp4" type="video/mp4">
+        </video>
+        <nav>
+            <ul class="menu-horizontal">
+                <li><a class="menu-inicio"> <img class="icono-menu" src="./imagenes/lista.png"></a>
+                    <ul class="menu-vertical">
+                        <li><a class="link-nav1" href="#presentación">Sobre mí</a></li>
+                        <li><a class="link-nav2" href="#conocimiento">Conocimientos</a></li>
+                        <li><a class="link-nav3" href="#proyectos">Proyectos</a></li>
+                        <li><a class="link-nav4" href="#contacto">Trabajemos juntos</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="menu-no-desplegable">
+                <li><a class="link-nav1-1" href="#presentacion">Sobre mí</a></li>
+                <li><a class="link-nav2-2" href="#conocimiento">Conocimientos</a></li>
+                <li><a class="link-nav3-3" href="#proyectos">Proyectos</a></li>
+                <li><a class="link-nav4-4" href="#contacto">Contáctame</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main><!-- Primera parte que contiene presentación    -->
+        <section id="presentacion">
+            <div class="contenedor-img-presentacion">
+                <img src="./imagenes/Foto_Mariu_Portfolio_1.jpeg" class="foto-mariu" alt="foto-mujer">
+            </div>
+            <div class="contenedor-titulo-presentacion">
+                <h1 class="saludo-presentacion">HOLA!</h1>
+            </div>
+            <div class="contenedor-nombre-presentacion">
+                <h2 class="nombre-presentacion">Soy Mariu Acevedo</h2>
+                <p class="txt-presentacion">Frontend developer, doula y amante de la acuarela</p>
+            </div>
+            <a class="boton-proyectos" href="#proyectos">Quiero ver más</a>
+        </section><!-- Segunda  parte que contiene conocimientos y habilidades     -->
+        <section id="conocimiento">
+            <div class="contenedor-texto-conocimiento">
+                <h2 class="título-conocimiento">Conocimientos</h2>
+                <p class="texto-conocimiento"> Programas con los que he trabajado recientemente</p>
+            </div>
+            <div class="html">
+                <img class="logo-html" src="./imagenes/html-5.png" alt="logo-HTML">
+            </div>
+            <div class="css">
+                <img class="logo-css" src="./imagenes/css-3.png" alt="logo-CSS">
+            </div>
+            <div class="javaScript">
+                <img class="logo-js" src="./imagenes/js.png" alt="logo-JavaScript">
+            </div>
+            <div class="git">
+                <img class="logo-github" src="./imagenes/github.png" alt="logo-Github">
+            </div>
+            <div class="sass">
+                <img class="logo-sass" src="./imagenes/sass.png" alt="logo-Sass">
+            </div>
+            <div class="react">
+                <img class="logo-react" src="./imagenes/react.512x456.png" alt="logo-React">
+            </div>
+            <div class="python">
+                <img class="logo-python" src="./imagenes/piton.png" alt="logo-Python">
+            </div>
+            <div class="hab-blandas">
+                <figure>
+                    <img class="imagen-blandas" src="./imagenes/habilidades-interpersonales.png"
+                        alt="imagen-representativa-habilidades-blandas">
+                    <figcaption>Habilidades blandas</figcaption>
+                </figure>
+            </div>
+        </section><!--  Apartado de cita    -->
+        <section class="contenedor-cita">
+            <div class="cita">
+                <h2 class="txt-cita">"La que sospechaba de lo imposible, pero lo prefería"</h2>
+                <!--Cita provisoria, buscar una hecha por una mujer-->
+                <p class="autor-cita">Eduardo Galeano</p>
+            </div>
+        </section><!-- Tercera parte que contiene proyectos    -->
+        <section id="proyectos">
+            <h2 class="titulo-proyectos">Proyectos</h2>
+            <div class="proyecto-1">
+                <img class="p-1-imagen" src="./imagenes/proyecto-1-img.jpeg" alt="mujer-esperando-taxi">
+                <h4 class="p-1-titulo">Desarrollo de App de transporte por y para mujeres</h4>
+            </div>
+            <div class="proyecto-2">
+                <h4 class="p-2-titulo">Proyecto de Cyberseguridad para navegación segura</h4>
+                <img class="p-2-imagen" src="./imagenes/proyecto-2-img.png" alt="computador-cyber-seguridad">
+            </div>
+            <div class="proyecto-3">
+                <img class="p-3-imagen" src="./imagenes/proyecto-3-img.jpg" alt="mujer-y-niña-frente-a-computador">
+                <h4 class="p-3-titulo">Juego de programación para niños y niñas</h4>
+            </div>
+            <div class="proyecto-4">
+                <h4 class="p-4-titulo">Desarrollo de app para detectar agarre defectuoso en Lactancia Materna</h4>
+                <img class="p-4-imagen" src="./imagenes/proyecto-4-imagen.jpg" alt="madre-lactando">
+            </div>
+        </section><!-- Cuarta parte que contiene información de contacto y formulario    -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>¿Te gustó mi trabajo y quieres que trabajemos juntos?</p>
+            <div class="formulario">
+                <h2>Escríbeme</h2>
+                <div class="contenedor-formulario">
+                    <form>
+                        <labe class="form-1">Nombre</label>
+                            <input placeholder="Tamara" type="text" />
+                            <label>Apellido</label>
+                            <input placeholder="Molina" type="text" />
+                            <label>Email</label>
+                            <input placeholder="tamaramolina@gmail.com" type="email" />
+                            <label>Mensaje</label>
+                            <textarea name="Escribe aquí" id="mensaje">Escribe aquí</textarea>
+                            <input type="submit" class="boton-enviar" />
+                    </form>
+                </div>
+            </div>
+            <div class="contenedor-rrhh-contacto">
+                <div class="contenedor-ig-contacto">
+                    <a href="https://www.instagram.com/mauace33/">
+                        <img class="link-ig" src="./imagenes/instagram.png" alt="logo-instagram">
+                    </a>
+                </div>
+                <div class="contenedor-linkedin-contacto">
+                    <a href="https://www.linkedin.com/in/mar%C3%ADa-eugenia-a-939460164/">
+                        <img class="link-linkedin" src="./imagenes/linkedin.png" alt="logo-linkedin">
+                    </a>
+                </div>
+                <div class="contenedor-git-contacto">
+                    <a href="https://github.com/MauAce3">
+                        <img class="link-git" src="./imagenes/github-icono-contc.png" alt="logo-github">
+                    </a>
+                </div>
+                <div class="contenedor-mail-contacto">
+                    <a href="mailto:mau.ace33@gmail.com"><img class="link-mail" src="./imagenes/gmail.png"
+                            alt="logo-mail">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer><!-- Footer que contiene links de contacto    -->
+        <p>Hecho con 💜 y ☕️ por Mariu</p>
+        <div class="contenedor-rrhh-footer">
+            <div class="contenedor-ig-footer">
+                <a href="https://www.instagram.com/mauace33/">
+                    <img class="link-ig" src="./imagenes/instagram.png" alt="logo-instagram">
+            </div>
+            <div class="contenedor-linkedin-footer">
+                <a href="https://www.linkedin.com/in/mar%C3%ADa-eugenia-a-939460164/">
+                    <img class="link-linkedin" src="./imagenes/linkedin.png" alt="logo-linkedin">
+                </a>
+            </div>
+            <div class="contenedor-git-footer">
+                <a href="https://github.com/MauAce3">
+                    <img class="link-git" src="./imagenes/github-icono-contc.png" alt="logo-github">
+                </a>
+            </div>
+            <div class="contenedor-mail-footer">
+                <a href="mailto:mau.ace33@gmail.com"><img class="link-mail" src="./imagenes/gmail.png" alt="logo-mail">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
